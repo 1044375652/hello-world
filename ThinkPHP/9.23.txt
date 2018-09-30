@@ -1,0 +1,15 @@
+One
+  Request对象
+	当用户发出请求的时候，就会产生一个Request对象，
+	这个Request对象包含很多，例如get,post,cookie...
+
+  使用Request对象，
+	先要把他的命名空间拿过来，然后实例化，
+	$request = Request::instance();
+	$request->url() = $this->request->url() = 这个是助手函数 request()->url()
+	动态绑定属性
+	$this->request->bind('user_name','张三')  绑定
+	$this->request->uesr_name	使用
+
+
+
